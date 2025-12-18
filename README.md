@@ -11,6 +11,8 @@ This is a minimal web application built for the SanchAI Analytics implementation
 
 The system uses a **ReAct Agent** equipped with a custom `get_weather` tool (using the OpenMeteo API) to fetch real-time weather data for any city.
 
+![App Screenshot](screenshot.png)
+
 ## Features
 *   **Modern Chat UI**: Clean, responsive interface built with React and polished CSS.
 *   **AI Agent**: Backend powered by `mistral7b-instruct` (via OpenRouter) to understand natural language queries.
