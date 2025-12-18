@@ -1,3 +1,4 @@
+
 # SanchAI Analytics Tech Assessment - Weather Bot
 
 **Submitted By:**
@@ -10,8 +11,6 @@
 This is a minimal web application built for the SanchAI Analytics implementation internship assessment. It features a **React** frontend and a **FastAPI** backend that utilizes **LangChain** and **OpenRouter** to answer user queries about the weather.
 
 The system uses a **ReAct Agent** equipped with a custom `get_weather` tool (using the OpenMeteo API) to fetch real-time weather data for any city.
-
-![App Screenshot](screenshot.png)
 
 ## Features
 *   **Modern Chat UI**: Clean, responsive interface built with React and polished CSS.
@@ -83,3 +82,7 @@ The frontend will run at `http://localhost:5173`.
 1.  Open `http://localhost:5173` in your browser.
 2.  Type a query like *"What is the weather in Mumbai?"* or *"Temperature in New York"*.
 3.  The agent will "think" (invoke the weather tool) and respond with the current weather.
+
+## Screenshots
+<img width="1470" height="956" alt="image" src="https://github.com/user-attachments/assets/ba448b46-c4bc-4cdf-80e9-f652f168e3ab" />
+
